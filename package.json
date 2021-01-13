@@ -1,0 +1,27 @@
+{
+  "name": "requestmultipleurls",
+  "version": "1.0.0",
+  "description": "Takes a list of URLs and returns their contents",
+  "main": "requestMultipleUrls.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leannecornish-ft/requestMultipleUrls.git"
+  },
+  "author": "Leanne Cornish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leannecornish-ft/requestMultipleUrls/issues"
+  },
+  "homepage": "https://github.com/leannecornish-ft/requestMultipleUrls#readme"
+}
