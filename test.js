@@ -30,14 +30,11 @@ describe('Global', () => {
 
     describe('Function given bad data', function() {
 
-        it('Returns a meaningful error', function() {
+        it('Returns a meaningful error if a URL does not load', function() {
             result = requestMultipleUrls([1,2,3])
             return expect(result).to.eventually.contain('One or more URLs failed to load with the following')
         });
 
-        // it('Rejects the promise', function() {
-        //     return assert.isRejected(requestMultipleUrls())
-        // });
     });
 
 });
