@@ -1,6 +1,5 @@
 const fetch = require('node-fetch');
 
-
 //Check returned promise is ok, otherwise throw error 
 function checkStatus(res) {
     if (res.ok) {
@@ -9,7 +8,6 @@ function checkStatus(res) {
         throw new Error(`${res.status} ${res.statusText}`);
     };
 };
-
 
 function requestMultipleUrls(arr) { 
     //accept only arrays
@@ -28,8 +26,5 @@ function requestMultipleUrls(arr) {
     //return fetched content as a promise
     return Promise.all(promises).catch(error => `One or more URLs failed to load with the following ${error}`);
 };
-
-
-  
 
 module.exports = requestMultipleUrls
