@@ -20,7 +20,7 @@ It will return:
 
 # Installation
 
-Run: npm install to install dependencies.
+Run: npm install to install dependencies. Dependencies are node-fetch, and chai & mocha (testing).
 
 
 
