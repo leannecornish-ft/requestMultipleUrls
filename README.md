@@ -6,7 +6,7 @@ A package that takes a list of URLs and returns their contents
 
 # How to use
 
-To use, call requestMultipleURLs([arr]), where arr is an array or URLs. 
+To use, call requestMultipleURLs(arr), where arr is an array or URLs. 
 
 It will return:
 
